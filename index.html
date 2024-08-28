@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 
 </head>
 <body>
@@ -21,9 +21,8 @@
         </ul>
         <ul>
             <li><a href="#">Games by Leonardo Madia</a></li>
-            <li class="hideOnMobile"><a href="#">Digital</a></li>
-            <li class="hideOnMobile"><a href="analog.html">Analog</a></li>
-            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path fill="#5C7FB7" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li><a href="#" class="active">Digital</a></li>
+            <li><a href="analog.html">Analog</a></li>
         </ul>
     </nav>
 
@@ -73,7 +72,7 @@
         </div>
     </div>
 
-<!-- BACKTOTOP---->
+<!-- BACKTOTOP -->
 <a href="#" class="back-to-top">
     <span class="material-symbols-outlined">
         arrow_upward
@@ -96,23 +95,6 @@
 </footer>
 
 
-
-
-    <script>
-        function showSidebar(){
-            const sidebar= document.querySelector('.sidebar')
-            sidebar.style.display='flex'
-        }
-        function hideSidebar(){
-            const sidebar= document.querySelector('.sidebar')
-            sidebar.style.display='none'
-        }
-    </script>
-
-
-
-    
-  
 
 </body>
 </html>

@@ -19,27 +19,15 @@ html{
 
 nav{
     background-color: #0B1132;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-nav a{
-    height: 100%;
-    padding: 0 20px;
-    text-decoration: none;
-    color: #5C7FB7;
-    display: flex;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-
+    width: 100%;
 }
 
 nav a:hover{
-    color: #5CDB94;
+    color: #f18c00;
     transition: 0.5s;
 }
 
@@ -68,11 +56,6 @@ nav svg{
 }
 
 
-
-nav{
-    background-color: #0B1132;
-}
-
 nav ul{
     width: 100%;
     list-style: none;
@@ -88,7 +71,7 @@ nav li{
 
 nav a{
     height: 100%;
-    padding: 0 20px;
+    padding: 0 60px;
     text-decoration: none;
     color: #5C7FB7;
     display: flex;
@@ -101,7 +84,7 @@ nav a{
 
 a:hover{
     text-decoration: none;
-    color: #5CDB94;
+    color: #f18c00;
     transition: 0.5s;
 }
 
@@ -138,7 +121,9 @@ nav li:first-child{
     display: none;
 }
 
-
+nav li a.active{
+    color: #f18c00;
+}
 
 
 /* -----------------------CARDS------------------------------------ */
@@ -203,7 +188,7 @@ padding: 20px;
 }
 
 .card-button:hover{
-    background-color: #5CDB94;
+    background-color: #f18c00;
     color: #0B1132;
     transition: 0.5s;
 
@@ -233,7 +218,7 @@ footer a{
 }
 
 .download-link:hover{
-    color: #5CDB94;
+    color: #f18c00;
 }
 
 
@@ -321,33 +306,3 @@ footer{
 }
 
 }
-
-
-/*-----------------------------MEDIA-QUERY--
-
-@media(max-width:800px){
-    .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-    }
-    footer{
-        flex-direction: column;
-    }
-    .contacts{
-        margin-top: 80px;
-    }
-    .links{
-        margin-bottom: 80px;
-    }
-
-}
-
-
-@media(max-width:400px){
-    .sidebar{
-        width: 100%;
-    }
-}
-------------------------*/
