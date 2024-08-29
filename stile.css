@@ -8,13 +8,17 @@
 body{
     min-height: 100vh;
     background-color: #D1D7D5;
+    overflow-x: hidden;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-
+p{
+    line-height: 150%;
+    font-size: 20px;
+}
 /*-------------------------------NAV-NUEVA----------------------------------------------- */
 
 nav{
@@ -162,7 +166,7 @@ nav li a.active{
 }
 
 .card{
-    width: 800px;
+    width: 550px;
     background-color: #0B1132;
     border-radius: 8px;
     overflow: hidden;
@@ -205,6 +209,15 @@ padding: 40px;
     transition: 0.5s;
 
 }
+
+
+
+.game-container{
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px 50px 50px;
+}
+
 
 /*-----------------------------FOOTER------------------------*/
 
