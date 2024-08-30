@@ -19,7 +19,10 @@ p{
     line-height: 200%;
     font-size: 16px;
 }
-/*-------------------------------NAV-NUEVA----------------------------------------------- */
+
+/*-------------------------------NAV-VECCHIA---------------------
+
+
 
 nav{
     background-color: #0B1132;
@@ -49,14 +52,6 @@ nav .home-link{
 
 nav svg{
     fill: #5C7FB7;
-}
-
-#sidebar-active{
-    display: none;
-}
-
-.open-sidebar-button .close-sidebar-button{
-    display: none;
 }
 
 
@@ -93,41 +88,59 @@ a:hover{
 }
 
 
-nav li:first-child{
-    margin-right: auto;
-}
-
-.sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: #0b1132c1;
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    backdrop-filter: blur(10px);
-}
-
-.sidebar li{
-    width: 100%;
-}
-
-.sidebar a{
-    width: 100%;
-}
-
-.menu-button{
-    display: none;
-}
-
 nav li a.active{
     color: #f18c00;
 }
+
+--------------------------------------------------------------------- */
+
+.navbar {
+    background-color: #0B1132;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.navbar h1 {
+    color: #5C7FB7;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.subtitles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subtitles h2 {
+    margin: 0 20px; /* Spaziatura tra i due h2 */
+    font-size: 1.5rem;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 60px;
+    text-decoration: none;
+    color: #5C7FB7;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+nav h2 a.active{
+    color: #f18c00;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f18c00;
+    transition: 0.5s;
+}
+
 
 /* -----------------------TITLEPAGE------------------------------------ */
 
