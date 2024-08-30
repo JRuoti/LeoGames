@@ -16,8 +16,8 @@ html{
 }
 
 p{
-    line-height: 150%;
-    font-size: 20px;
+    line-height: 200%;
+    font-size: 16px;
 }
 /*-------------------------------NAV-NUEVA----------------------------------------------- */
 
@@ -189,8 +189,8 @@ padding: 40px;
 }
 
 .card-content p{
-    line-height: 1.5;
-    font-size: 14px;
+    line-height: 150%;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -219,6 +219,51 @@ padding: 40px;
 }
 
 
+/*-----------------------------BOARDGAMES------------------------*/
+
+
+.container-boardgame {
+    text-align: center;
+    height: 600px;
+}
+
+.animated-text {
+    margin-top: 250px;
+    font-size: 4rem;
+    color: #0B1132;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.dots{
+    color:#0B1132;
+}
+
+.dots::after {
+    content: '';
+    position: absolute;
+    animation: dots 2.5s steps(1, end) infinite;
+    color:#0B1132;
+}
+
+
+@keyframes dots {
+    0%, 25% {
+        content: '';
+    }
+    50% {
+        content: '.';
+    }
+    75% {
+        content: '..';
+    }
+    100% {
+        content: '...';
+    }
+}
+
+
 /*-----------------------------FOOTER------------------------*/
 
 footer{
@@ -226,6 +271,7 @@ footer{
     width: 100%;
     height: auto;
     display: flex;
+    bottom:0;
 }
 
 footer p{
@@ -296,7 +342,7 @@ footer a{
     position: fixed;
     top:0;
     right: -100%;
-    z-index: 10px;
+    z-index: 10;
     width: 300px;
     background-color: #0b1132e6;
     box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.2);
@@ -313,7 +359,10 @@ nav a{
 
 footer{
     flex-direction: column;
+    position:relative;
 }
+
+
 .contacts{
     margin-top: 80px;
 }
