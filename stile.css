@@ -16,83 +16,11 @@ html{
 }
 
 p{
-    line-height: 200%;
+    line-height: 150%;
     font-size: 16px;
 }
 
-/*-------------------------------NAV-VECCHIA---------------------
-
-
-
-nav{
-    background-color: #0B1132;
-    height: 80px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-}
-
-nav a:hover{
-    color: #f18c00;
-    transition: 0.5s;
-}
-
-.links-container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-nav .home-link{
-    margin-right: auto;
-}
-
-nav svg{
-    fill: #5C7FB7;
-}
-
-
-nav ul{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1)
-}
-
-nav li{
-    height: 50px;
-}
-
-nav a{
-    height: 100%;
-    padding: 0 60px;
-    text-decoration: none;
-    color: #5C7FB7;
-    display: flex;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-a:hover{
-    text-decoration: none;
-    color: #f18c00;
-    transition: 0.5s;
-}
-
-
-nav li a.active{
-    color: #f18c00;
-}
-
---------------------------------------------------------------------- */
+/*-------------------------------NAV------------------------------------------------------------------------------------------ */
 
 .navbar {
     background-color: #0B1132;
@@ -104,7 +32,7 @@ nav li a.active{
 .navbar h1 {
     color: #5C7FB7;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 32px;
 }
 
 .subtitles {
@@ -114,8 +42,8 @@ nav li a.active{
 }
 
 .subtitles h2 {
-    margin: 0 20px; /* Spaziatura tra i due h2 */
-    font-size: 1.5rem;
+    margin: 0 20px; 
+    font-size: 24px;
 }
 
 nav a{
@@ -145,9 +73,9 @@ a:hover{
 /* -----------------------TITLEPAGE------------------------------------ */
 
 .title_page{
+    font-weight: 700;
     color: #0B1132;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
