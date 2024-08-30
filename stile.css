@@ -145,12 +145,13 @@ a:hover{
 /* -----------------------TITLEPAGE------------------------------------ */
 
 .title_page{
-    font-size: 42px;
+    color: #0B1132;
+    font-size: 32px;
     font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 0 10px 0;
+    margin: 30px 0 -40px 0;
 }
 
 
