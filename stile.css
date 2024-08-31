@@ -85,6 +85,13 @@ a:hover{
 .title_page .stadia {
     margin-left: 10px;
     margin-top: 10px;
+    transition: transform 0.5s ease-in-out, filter 0.3s ease-in-out;
+}
+
+
+.stadia:hover{
+    transform: rotate(360deg);
+    filter: invert(40%) sepia(100%) saturate(550%) hue-rotate(360deg);
 }
 
 
