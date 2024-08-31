@@ -73,9 +73,7 @@ a:hover{
 /* -----------------------TITLEPAGE------------------------------------ */
 
 .title_page{
-    font-weight: 700;
     color: #0B1132;
-    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
