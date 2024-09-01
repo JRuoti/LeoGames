@@ -271,11 +271,12 @@ padding: 40px;
     font-size: 40px;
     margin-bottom: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section_videogames h2 {
+    margin-bottom: 15px;
     font-size: 24px;
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -284,6 +285,11 @@ padding: 40px;
     list-style-type: disc;
     padding-left: 40px;
 }
+
+.section_videogames li {
+    line-height: 150%;
+}
+
 
 .section_videogames p {
     margin-bottom: 20px;
@@ -301,6 +307,10 @@ padding: 40px;
     margin-top: 40px;
     text-align: center;
     margin-bottom: 80px;
+}
+
+.section_learn h1{
+    margin-bottom: 30px;
 }
 
 .section_learn p{
