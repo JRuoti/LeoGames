@@ -352,7 +352,7 @@ iframe{
 
 .concept_splitting img{
     display: block;
-    width: 70%;
+    width: 50%;
     max-width: 100%;
     object-fit: contain;    
 }
