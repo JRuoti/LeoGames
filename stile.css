@@ -323,13 +323,12 @@ iframe{
 }
 
 
-.trio_loop{
-    display: block;
-    width: 70%;
-    max-width: 100%;
-    object-fit: fill;
+.overview_splitting{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .concept_splitting{
     display: flex;
@@ -347,6 +346,19 @@ iframe{
         display: flex;
         margin-bottom: 30px;
         align-items: center;
+    }
+
+
+    .overview_splitting img{
+        display: block;
+    width: 40%;
+    max-width: 100%;
+    object-fit: contain;
+    
+    }
+
+.overview_splitting ul{
+        margin-right: 100px;  
     }
     
 
