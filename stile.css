@@ -437,7 +437,13 @@ iframe{
 
 
 
+/*-----------------------------GRID------------------------*/
 
+.overview_splitting_grid{
+        display: grid;
+        grid-auto-flow: column;
+        
+      }
 
 
 
