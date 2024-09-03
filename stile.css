@@ -279,7 +279,7 @@ padding: 40px;
 
 .section_videogames ul {
     list-style-type: disc;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .section_videogames li {
@@ -470,11 +470,6 @@ justify-self: center;
     }
 
     }
-
-
-
-
-
 
 
 /*-----------------------------FOOTER------------------------*/
