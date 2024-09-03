@@ -268,7 +268,7 @@ padding: 40px;
 .section_videogames h1 {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .section_videogames h2 {
@@ -441,9 +441,36 @@ iframe{
 
 .overview_splitting_grid{
         display: grid;
-        grid-auto-flow: column;
-        
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        width: 100%;
       }
+
+.overview_splitting_grid li{
+font-size: 20px;
+justify-self: center;
+}
+
+.overview_splitting_grid img{
+    width: 380px;
+    justify-self: right;
+}
+
+      @media (max-width: 768px) {
+        .overview_splitting_grid {
+            grid-template-columns: 1fr; /* Una colonna singola su schermi piccoli */
+            overflow-x: hidden;
+            align-items: center;
+            gap: 20px;
+        }
+    .overview_splitting_grid img{
+        align-items:center;
+        justify-self: center;
+        
+    }
+
+    }
+
 
 
 
