@@ -462,14 +462,7 @@ justify-self: center;
 
     }
 
-
-
-
-/*-----------------------------GRID-OVERVIEW------------------------*/
-
-
-
-
+/*-----------------------------GRID-CONCEPT------------------------*/
 
 .box_videogames_grid{
     margin-bottom: 250px;
@@ -493,6 +486,21 @@ justify-self: center;
     align-items: center;
     justify-self: right;
 }
+
+
+
+.image-caption{
+  margin-top: 8px; /* Spazio tra l'immagine e la didascalia */
+  font-size: 0.8rem; /* Dimensione del font per la didascalia */
+  color: #0B1132; /* Colore del testo della didascalia */
+  font-style: italic;
+  text-align: center;
+}
+
+/*-----------------------------GAMEDESIGN-GRID--------------------------*/
+
+
+
 
 
 
